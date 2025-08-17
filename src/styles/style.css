@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@layer theme, base, mui, components, utilities;
+
+:root {
+    --color-nhac: linear-gradient(135deg, #FFB147, #FF6C63, #B86ADF);
+  }
+
+@theme{
+    /* --color-nhac: var(--color-nhac) ; */
+}

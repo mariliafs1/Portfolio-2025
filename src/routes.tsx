@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
+import About from "./pages/About"
 
 export const AppRoutes = () => {
     return (
@@ -8,7 +9,7 @@ export const AppRoutes = () => {
         <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<div>About Page</div>} />
+                <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<div>Contact Page</div>} />
             </Routes>
         </BrowserRouter>
