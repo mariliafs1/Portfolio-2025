@@ -1,10 +1,11 @@
 @import 'tailwindcss';
 @layer theme, base, mui, components, utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-:root {
-    --color-nhac: linear-gradient(135deg, #FFB147, #FF6C63, #B86ADF);
-  }
+
 
 @theme{
-    /* --color-nhac: var(--color-nhac) ; */
+  --font-main: "IBM Plex Sans", sans-serif;
+  --font-logo: "IBM Plex Serif", serif;
+  --color-nhac: #1a202c;
 }
